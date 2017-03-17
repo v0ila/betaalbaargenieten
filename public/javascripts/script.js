@@ -1,3 +1,10 @@
+$(document).ready(function() {  
+  $('.multiselect').multiselect();
+  $('.datepicker').datepicker();  
+});
+
+
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
