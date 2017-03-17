@@ -230,62 +230,58 @@
                 
     <div class="panel panel-primary dialog-panel">
       <div class="panel-heading">
-        <h5>Almaguin Campground - Reservation</h5>
+        <h5>Amelanderkaap Reservering</h5>
       </div>
       <div class="panel-body">
         <form class="form-horizontal" role="form">
           <div class="form-group">
-            <label class="control-label col-md-2 col-md-offset-2" for="id_accomodation">Accomodation</label>
+            <label class="control-label col-md-2 col-md-offset-2" for="id_accomodation">Appartement</label>
             <div class="col-md-2">
               <select class="form-control" id="id_accomodation">
-                <option>RV</option>
-                <option>Tent</option>
-                <option>Cabin/Lodging</option>
+                <option>2 persoons</option>
+                <option>4 persoons</option>
               </select>
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-md-2 col-md-offset-2" for="id_title">Name</label>
+            <label class="control-label col-md-2 col-md-offset-2" for="id_title">Naam</label>
             <div class="col-md-8">
               <div class="col-md-2">
                 <div class="form-group internal">
                   <select class="form-control" id="id_title">
-                    <option>Mr</option>
-                    <option>Ms                    </option>
-                    <option>Mrs</option>
-                    <option>Miss</option>
-                    <option>Dr</option>
+                    <option>De heer</option>
+                    <option>Mevrouw</option>
                   </select>
                 </div>
               </div>
               <div class="col-md-3 indent-small">
                 <div class="form-group internal">
-                  <input class="form-control" id="id_first_name" placeholder="First Name" type="text"></input>
+                  <input class="form-control" id="id_first_name" placeholder="Voornaam" type="text"></input>
                 </div>
               </div>
               <div class="col-md-3 indent-small">
                 <div class="form-group internal">
-                  <input class="form-control" id="id_last_name" placeholder="Last Name" type="text"></input>
+                  <input class="form-control" id="id_last_name" placeholder="Achternaam" type="text"></input>
                 </div>
               </div>
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-md-2 col-md-offset-2" for="id_adults">Guests        </label>
+            <label class="control-label col-md-2 col-md-offset-2" for="id_adults">Gasten        </label>
             <div class="col-md-8">
               <div class="col-md-2">
                 <div class="form-group internal">
-                  <input class="form-control col-md-8" id="id_adults" placeholder="18+ years" type="number"></input>
+                  <input class="form-control col-md-8" id="id_adults" placeholder="18+ " type="number"></input>
                 </div>
               </div>
               <div class="col-md-3 indent-small">
                 <div class="form-group internal">
-                  <input class="form-control" id="id_children" placeholder="2-17 years" type="number"></input>
+                  <input class="form-control" id="id_children" placeholder="2-17 jaar" type="number"></input>
                 </div>
               </div>
               <div class="col-md-3 indent-small">
                 <div class="form-group internal">
-                  <input class="form-control" id="id_children_free" placeholder="< 2 years" type="number"></input>
+                  <input class="form-control" id="id_children_free" placeholder="< 2 jaar" type="number"></input>
                 </div>
               </div>
             </div>
@@ -295,18 +291,18 @@
             <div class="col-md-6">
               <div class="form-group">
                 <div class="col-md-11">
-                  <input class="form-control" id="id_email" placeholder="E-mail" type="text"></input>
+                  <input class="form-control" id="id_email" placeholder="Email" type="text"></input>
                 </div>
               </div>
               <div class="form-group internal">
                 <div class="col-md-11">
-                  <input class="form-control" id="id_phone" placeholder="Phone: (xxx) - xxx xxxx" type="text"></input>
+                  <input class="form-control" id="id_phone" placeholder="Telefoon: (xxx) - xxx xxxx" type="text"></input>
                 </div>
               </div>
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-md-2 col-md-offset-2" for="id_checkin">Checkin</label>
+            <label class="control-label col-md-2 col-md-offset-2" for="id_checkin">Inchecken</label>
             <div class="col-md-8">
               <div class="col-md-3">
                 <div class="form-group internal input-group">
@@ -316,7 +312,7 @@
                   </span>
                 </div>
               </div>
-              <label class="control-label col-md-2" for="id_checkout">Checkout</label>
+              <label class="control-label col-md-2" for="id_checkout">Uitchecken</label>
               <div class="col-md-3">
                 <div class="form-group internal input-group">
                   <input class="form-control datepicker" id="id_checkout"></input>
@@ -328,60 +324,51 @@
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-md-2 col-md-offset-2" for="id_equipment">Equipment type</label>
+            <label class="control-label col-md-2 col-md-offset-2" for="id_equipment">Benodigdheden</label>
             <div class="col-md-8">
               <div class="col-md-3">
                 <div class="form-group internal">
                   <select class="form-control" id="id_equipment">
-                    <option>Travel trailer</option>
-                    <option>Fifth wheel</option>
-                    <option>RV/Motorhome</option>
-                    <option>Tent trailer</option>
-                    <option>Pickup camper</option>
-                    <option>Camper van</option>
+                    <option>Optie 1</option>
+                    <option>Optie 2</option>
+                    <option>Optie 3</option>
+                    <option>Optie 4</option>
+                    <option>Optie 5</option>
+                    <option>Optie 6</option>
                   </select>
                 </div>
               </div>
-              <div class="col-md-9">
-                <div class="form-group internal">
-                  <label class="control-label col-md-3" for="id_slide">Slide-outs</label>
-                  <div class="make-switch" data-off-label="NO" data-on-label="YES" id="id_slide_switch">
-                    <input id="id_slide" type="checkbox" value="chk_hydro"></input>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+             
           <div class="form-group">
-            <label class="control-label col-md-2 col-md-offset-2" for="id_service">Required Service</label>
+            <label class="control-label col-md-2 col-md-offset-2" for="id_service">Extra</label>
             <div class="col-md-8">
               <select class="multiselect" id="id_service" multiple="multiple">
-                <option value="hydro">Hydro</option>
-                <option value="water">Water</option>
-                <option value="sewer">Sewer              </option>
+                <option value="optie1">Extra optie 1</option>
+                <option value="optie2">Extra optie 2</option>
+                <option value="optie3">Extra optie 3</option>
               </select>
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-md-2 col-md-offset-2" for="id_pets">Pets</label>
+            <label class="control-label col-md-2 col-md-offset-2" for="id_pets">Huisdieren</label>
             <div class="col-md-8">
-              <div class="make-switch" data-off-label="NO" data-on-label="YES" id="id_pets_switch">
+              <div class="make-switch" data-off-label="NEE" data-on-label="JA" id="id_pets_switch">
                 <input id="id_pets" type="checkbox" value="chk_hydro"></input>
               </div>
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-md-2 col-md-offset-2" for="id_comments">Comments</label>
+            <label class="control-label col-md-2 col-md-offset-2" for="id_comments">Commentaar</label>
             <div class="col-md-6">
-              <textarea class="form-control" id="id_comments" placeholder="Additional comments" rows="3"></textarea>
+              <textarea class="form-control" id="id_comments" placeholder="Aanvullend commentaar" rows="3"></textarea>
             </div>
           </div>
           <div class="form-group">
             <div class="col-md-offset-4 col-md-3">
-              <button class="btn-lg btn-primary" type="submit">Request Reservation</button>
+              <button class="btn-lg btn-primary" type="submit">Reservering indienen</button>
             </div>
             <div class="col-md-3">
-              <button class="btn-lg btn-danger" style="float:right" type="submit">Cancel</button>
+              <button class="btn-lg btn-danger" style="float:right" type="submit">Sluiten</button>
             </div>
           </div>
         </form>
